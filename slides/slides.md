@@ -272,22 +272,25 @@ and should be published.
 
 -
 
-<div style="width: 49%; float: left;">
-
-\[
-\begin{align}
-a(x) &= a_0 + a_1 x + \dots + a_100 x^100 \\
-b(x) &= b_0 + b_1 x + \dots + b_100 x^100 \\
-&\vdots
-z(x) &= z_0 + z_1 x + \dots + z_100 x^100
-\end{align}
-\]
-
-</div>
-
-<div style="width: 49%; float: right;">
-
 ![Plot of M/M0 against Delta, showing blue and black points starting evenlt spaced, but merging pairwise at high Delta, leaving a single black ground state at 1.0.](./images/gg-plot.png) <!-- .element width="600px" -->
+
+Notes:
+Similarly,
+if you're putting numbers into a plot,
+then likely someone may at some point be interested in the values of those numbers.
+Publishing them as data allows others to make use of them
+without needing to hold a ruler up to your PDF.
+
+-
+
+$$
+\begin{align}
+a(x) &= a_0 + a_1 x + \dots + a_{100} x^{100} \\\\
+b(x) &= b_0 + b_1 x + \dots + b_{100} x^{100} \\\\
+&\qquad\qquad\vdots \\\\
+z(x) &= z_0 + z_1 x + \dots + z_{100} x^{100}
+\end{align}
+$$
 
 Notes:
 Even if your work is purely analytical,
@@ -298,11 +301,6 @@ or numbers with decimal places that result from evaluating them,
 consider whether you could share these as data,
 either as supplementary material to a paper,
 or citable separately.
-Similarly,
-if you're putting numbers into a plot,
-then likely someone may at some point be interested in the values of those numbers.
-Publishing them as data allows others to make use of them
-without needing to hold a ruler up to your PDF.
 
 ---
 
@@ -310,7 +308,7 @@ without needing to hold a ruler up to your PDF.
 
 ---
 
-# Conclusions
+## Conclusions
 
 Sharing workflows and data
 
