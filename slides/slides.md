@@ -241,10 +241,17 @@ You can do the same thing for your data and the software workflows that process 
 
 -
 
+[![Screen shot of the article "the war over supercooled water"](./images/supercooled-water.png) <!-- .element width="1000px" -->](https://physicstoday.scitation.org/do/10.1063/pt.6.1.20180822a/full/)
+
+Notes:
+In 2011, a discrepancy was found between the results of two groups regarding computing the predited properties of an unexplored part of the phase diagram of water. One group wanted to understand the difference, the other ignored them and kept publishing anyway. In 2013, the former asked the latter for their code to try and understand the source of the discrepancy. They got no response. In 2016, the latter group published in Nature, with the phrase "scripts available on request". The former group asked again, and got nothing, until they approached the editors of Nature to ask the authors to keep their word. Once they had the code, within a week they had narrowed the differences in approach to a handful, and after a couple of months of testing they identified the issue. The more reticent group had made an unusual choice in their initial conditions for their Monte Carlo, and when this was done in the other setup, it gave a similar result. This was published in 2017, shortly after the PI of the latter group had passed away. Had both groups been fully open with their methodology, six years of arguments and bitterness would have been avoided, and everyone could have spent their time on more productive things.
+
+-
+
 [![Title block of a document entitled "The TELOS Collaboration Approach to Reproducibility and
 Open Science"](./images/guidance.png) <!-- .element height="500px" -->](https://arxiv.org/abs/2504.01876)
 
-[![GitHub logo](./images/github.svg) <!-- .element height="64px" --> telos-collaboration/strategy](https://github.com/telos-collaboration/strategy)
+[![GitHub logo](./images/github.svg) <!-- .element height="48px" style="vertical-align: -24px; margin-right: 12px;" --> telos-collaboration/strategy](https://github.com/telos-collaboration/strategy) • [arXiv:2504.01876](https://arxiv.org/abs/2504.01876)
 
 Notes:
 It's good to refer to what other groups are doing,
@@ -301,6 +308,15 @@ or numbers with decimal places that result from evaluating them,
 consider whether you could share these as data,
 either as supplementary material to a paper,
 or citable separately.
+
+-
+
+![Four-panel comic, of two caped figures with swords facing off. The first, with "GOOD" on their chest, says "We could have been friends, you know." The second, says "No. We couldn't have.", opening their cape to reveal "PERFECT" on their chest.](./images/perfect-good.jpg) <!-- .element height="500px" -->
+
+([Shen Comix](https://bsky.app/profile/shenanigansen.bsky.social/post/3ltwv2ueffc26))
+
+Notes:
+The most important thing is to not let the perfect be the enemy of the good. Everyone is embarrassed about the quality of their code, but even imperfect code is better than a completely black box. You can work incrementally&mdash;perhaps in your next paper, you just dump all of the scripts you used on Zenodo and link them in the paper. Then in the next one, you could work to write more documentation to help others be able to run the full analysis without needing to ask you for details. Then you might work to automate it end to end. And then as you start new projects perhaps you take a little extra time to focus on the design of tools so they can be more reusable by others.
 
 ---
 
